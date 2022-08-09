@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.wrapper {
+    width: 100%;
+    background-image: url('img/top-banner.png');
+    background-repeat: no-repeat;
+}
+
+.welcome_area {
+    width: 100%;
+    min-height: 580px;
+    overflow: hidden;
+}
+
+.welcome_area .welcome-left_side {
+    width: 40%;
+    float: left;
+    padding: 50px 0px 50px 50px;
+}
+
+.welcome_area .welcome-left_side .frist-h2 {
+    font-family: 'Galada', 'cursive';
+    font-size: 38px;
+    padding-bottom: 20px;
+}
+
+.welcome_area .welcome-left_side h2 {
+    font-family: 'Galada', 'cursive';
+    font-size: xx-large;
+    padding-bottom: 20px;
+}
+
+.welcome_area .welcome-left_side span {
+    color: orange;
+}
+
+.welcome_area .welcome-left_side h4 {
+    font-family: "Hind Siliguri", "cursive";
+    padding-bottom: 8px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.welcome_area .welcome-left_side p {
+    text-align: justify;
+    font-family: "Hind Siliguri", "cursive";
+    font-weight: 500;
+    color: rgb(58, 57, 57);
+}
+
+.welcome_area .welcome-left_side button {
+    border: medium none;
+    outline: currentcolor none medium;
+    background-image: linear-gradient(90deg, rgb(253, 180, 155), rgb(253, 60, 21));
+    padding: 7px 28px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.welcome_area .welcome-left_side button a {
+    color: white;
+    font-family: "Hind Siliguri", "cursive";
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.welcome_area .welcome-right_side {
+    width: 40%;
+    float: right;
+    padding: 50px 50px 0px 0px;
+}
+
+.welcome_area .welcome-right_side {
+    width: 40%;
+    float: right;
+    padding: 50px 50px 50px 0px;
+}
+
+
+.dream {
+    width: 100%;
+    min-height: 580px;
+    overflow: hidden;
+}
+
+.dream .dream_left-side {
+    width: 40%;
+    float: left;
+    padding: 50px;
+}
+
+.dream .dream_left-side img {
+    width: 468px !important;
+    height: 458px !important;
+}
+
+.dream .dream_right-side {
+    width: 40%;
+    float: right;
+    padding: 70px 50px 100px 0px;
+    margin-top: 60px;
+}
+
+.dream .dream_right-side h2 {
+    font-family: "Galada", "cursive";
+    font-size: xx-large;
+    padding-bottom: 20px;
+}
+
+.dream .dream_right-side h4 {
+    font-family: "Hind Siliguri", "cursive";
+    padding-bottom: 12px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.dream .dream_right-side p {
+    text-align: justify;
+    font-family: "Hind Siliguri", "cursive";
+    font-weight: 500;
+    color: rgb(58, 57, 57);
+}
+
+.dream .dream_right-side button {
+    border: medium none;
+    outline: currentcolor none medium;
+    background-image: linear-gradient(90deg, #fdb49b, #fd3c15);
+    padding: 7px 28px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.dream .dream_right-side button a {
+    color: white;
+    font-family: "Hind Siliguri", "cursive";
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.wrapper1 img {
+    width: 115px;
+    min-height: 40px;
+    position: absolute;
+    padding: 60px 0px 0px;
+    z-index: -1;
+}
+
+.experience {
+    width: 100%;
+    min-height: 580px;
+    overflow: hidden;
+}
+
+.experience h2 {
+    font-family: "Galada", "cursive";
+    font-size: xx-large;
+    padding: 0px 0px 15px 50px;
+}
+
+.experience .experience_left-side {
+    width: 40%;
+    height: 80%;
+    margin-left: 50px;
+    box-shadow: gray 10px 10px 40px;
+    float: left;
+    padding: 50px 25px 50px 50px;
+    border-left: 7px solid;
+    border-image: linear-gradient(lightsalmon, tomato) 1 / 1 / 0 stretch;
+    border-radius: 10px;
+}
+
+.experience h2 {
+    font-family: "Galada", "cursive";
+    font-size: xx-large;
+    padding: 0px 0px 15px 50px;
+}
+
+.experience .experience_left-side h2 {
+    padding: 0px 0px 20px;
+    font-weight: 500;
+}
+
+.experience .experience_left-side h4 {
+    font-family: "Hind Siliguri", "cursive";
+    padding-bottom: 6px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.experience .experience_left-side p {
+    text-align: justify;
+    font-family: "Hind Siliguri", "cursive";
+    font-weight: 500;
+    color: rgb(58, 57, 57);
+}
+
+.experience .experience_right-side {
+    width: 40%;
+    height: 80%;
+    margin-right: 50px;
+    box-shadow: gray 10px 10px 40px;
+    float: right;
+    padding: 50px 25px 50px 50px;
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan) 1 / 1 / 0 stretch;
+    border-radius: 10px;
+}
+
+.experience .experience_right-side h2 {
+    padding: 0px 0px 20px 0px;
+    font-weight: 500;
+}
+
+.experience .experience_right-side h4 {
+    font-family: "Hind Siliguri", "cursive";
+    padding-bottom: 6px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.experience .experience_right-side p {
+    text-align: justify;
+    font-family: "Hind Siliguri", "cursive";
+    font-weight: 500;
+    color: rgb(58, 57, 57);
+}
+
+footer {
+    background-color: rgb(228, 225, 225);
+    padding: 14px;
+    border-radius: 8px 8px 0px 0px;
+}
+
+footer p {
+    color: rgb(58, 57, 57);
+    text-align: center;
+}
